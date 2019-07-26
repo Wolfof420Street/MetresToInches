@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 double meterValue = Double.parseDouble(enterMetres.getText().toString());
                 result = meterValue*multiplier;
 
-                resultTextView.setText(Double.toString(result));
+                resultTextView.setText(Double.toString(result) + "inches");
             }
         });
     }
